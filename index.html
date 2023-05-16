@@ -1,9 +1,44 @@
 <html>
   <head>
-    <title>My blog</title>
+    <title> Ben Fitzgerald Blog</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+
   <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1> 
-    <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
+    
+    <h1>Index Home</h1> 
+    <p> This is the index home page, you can find links to both core and tech blog content within the sections below.</p>
+    <p> This page will also list feature links to specific projects as time goes on.</p>
+    
+    
+    <div class="index-parent-container">
+      <div class="index-container tech-theme-highlight">
+          <a href="blog/tech-main.html" style="display: block; text-decoration: none; color: inherit;">
+              <h2>Tech</h2>
+              <img src="graphics/codecode.jpg" alt="Section 1 Image">
+              <p>Tech content this way</p>
+          </a>
+      </div>
+
+      <div class="index-container core-theme-highlight">
+        <a href="blog/core-main.html" style="display: block; text-decoration: none; color: inherit;">
+          <h2>Core</h2>
+          <img src="graphics/planning.jpeg" alt="Section 2 Image">
+          <p>Core content this way</p>
+        </a>
+      </div>
+    </div>
+
+      <!-- figure out how to adjust padding between these two sections, index-parent-container sets it I think? -->
+
+      <div class="post-container tech-theme">
+        <a href="blog/te-houtaewa-template.html" style="display: block; text-decoration: none; color: inherit;">
+          <h2 style="text-align: center;">Te-Houtaewa Blog</h2> <!-- messy, look into -->
+          <img src="graphics/now-loading-complete.gif" alt="Section 2 Image">
+          <p>Te-Houtaewa blog is found here</p>
+        </a>
+      </div>
+
   </body>
 </html>
